@@ -3,7 +3,13 @@ from schemas import TweetInput, PredictionOutput
 from model import predict
 from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime
-app=FastAPI()
+
+app = FastAPI(
+    title="TweetSense - Disaster Tweet Classifier",
+    description="Classifies tweets as disaster-related or not using fine-tuned DistilBERT",
+    version="1.0.0"
+)
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -13,6 +19,7 @@ app.add_middleware(
 )
 
 history=[]
+
 @app.get("/health")
 def health_check():
     return {"status":"ok"}

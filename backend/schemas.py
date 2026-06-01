@@ -1,5 +1,4 @@
-from pydantic import BaseModel, Field, computed_field, field_validator
-from typing import Literal,Annotated
+from pydantic import BaseModel, Field
 
 class TweetInput(BaseModel):
     text: str =Field(..., description="The text of the tweet to be analyzed.")

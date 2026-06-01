@@ -1,13 +1,15 @@
-# Backend
-backend/saved_model/
+# ── Backend ───────────────────────────────────────────
 backend/__pycache__/
 backend/*.pyc
-*.pyc
+backend/saved_model/
 
-# Frontend
+# ── Frontend ──────────────────────────────────────────
 frontend/node_modules/
 frontend/dist/
 
-# Environment
+# ── Notebook ──────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Environment ───────────────────────────────────────
 .env
 .env.local

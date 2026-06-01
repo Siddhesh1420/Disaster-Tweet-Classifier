@@ -1,9 +1,8 @@
-fastapi
-uvicorn
-transformers
-torch
-pydantic
-scikit-learn
-numpy
-huggingface_hub
-safetensors
+fastapi==0.115.0
+uvicorn==0.30.6
+transformers==4.44.0
+torch==2.4.0
+pydantic==2.8.2
+huggingface_hub==0.24.6
+safetensors==0.4.4
+numpy==1.26.4
