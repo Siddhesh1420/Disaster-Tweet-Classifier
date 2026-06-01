@@ -28,7 +28,7 @@ export default function App() {
       Dashboard
     </Link>
   </div>
-</nav>
+  </nav>
         <Routes>
           <Route path="/" element={<Classifier onNewPrediction={addPrediction}/>} />
           <Route path="/dashboard" element={<Dashboard predictions={predictions}/>} />
