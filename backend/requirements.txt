@@ -2,8 +2,6 @@ fastapi
 uvicorn
 transformers
 torch
-pydantic
-scikit-learn
-numpy
 huggingface_hub
 safetensors
+pydantic
