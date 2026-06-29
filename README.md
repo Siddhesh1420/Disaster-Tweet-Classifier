@@ -10,6 +10,8 @@ TweetSense leverages Transformer-based Natural Language Processing to analyze tw
 
 ---
 
+🔗 **Live Demo:** http://13.200.235.213
+
 ## Tech Stack
 
 ### Frontend
@@ -50,6 +52,7 @@ https://huggingface.co/Sid1409/disaster-tweet-classifier
 - Pie-chart visualization
 - REST API backend
 - Containerized deployment using Docker
+- AWS EC2 (deployed via Docker + EC2 t3.micro)
 
 ---
 
@@ -242,7 +245,6 @@ Response
 ## Future Improvements
 
 - GitHub Actions CI/CD
-- AWS Deployment
 - User Authentication
 - Batch Tweet Analysis
 - Real-Time Social Media Stream Integration
